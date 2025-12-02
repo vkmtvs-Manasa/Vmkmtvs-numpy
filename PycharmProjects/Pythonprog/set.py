@@ -1,0 +1,12 @@
+s= set()
+print(type(s))
+l=set([1,2,3,3]) # it prints only unique value for the sets sets sre for uique values
+s_from_list=set(l)
+print(s_from_list)
+print(type(s_from_list))
+s.add(5)
+s.add(6)
+print(s)
+#sl=s.union({1,2,3,4})
+sl = s.intersection({1,2,3,5})
+print(s,sl)
